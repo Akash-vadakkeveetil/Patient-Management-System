@@ -1,0 +1,14 @@
+// Status: 200, time: 486ms, size: 0.150390625 KB
+### POST request to create a new patient
+POST http://localhost:4000/patients
+content-type: application/json
+date: Tue, 15 Apr 2025 09:39:44 GMT
+transfer-encoding: chunked
+
+{
+  "id": "47bd3f40-2bf9-48d1-95d4-93e17134cc3c",
+  "name": "John Doe",
+  "email": "robinson@gmail.com",
+  "address": "123 main-church-street",
+  "dateOfBirth": "1995-09-09"
+}

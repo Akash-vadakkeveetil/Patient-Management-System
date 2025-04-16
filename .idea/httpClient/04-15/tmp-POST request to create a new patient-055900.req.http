@@ -1,0 +1,13 @@
+// Size: 0.140625 KB
+### POST request to create a new patient
+POST http://localhost:4000/patients 
+Content-Type: application/json
+Content-Length: 144
+
+{
+  "name": "John Doe",
+  "email": " ",
+  "address": "123 main-church-street",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-08-01"
+}

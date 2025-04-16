@@ -1,0 +1,11 @@
+// Status: 400, time: 257ms, size: 0.033203125 KB
+### POST request to create a new patient
+POST http://localhost:4000/patients
+connection: close
+content-type: application/json
+date: Tue, 15 Apr 2025 14:30:28 GMT
+transfer-encoding: chunked
+
+{
+  "message": "Email already exists"
+}

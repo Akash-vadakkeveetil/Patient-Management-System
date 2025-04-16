@@ -1,0 +1,12 @@
+// Size: 0.126953125 KB
+### Update request to create a new patient
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000 
+Content-Type: application/json
+Content-Length: 130
+
+{
+  "name": "John Doe",
+  "email": "john.doe1@example.com",
+  "address": "123 main-church-street",
+  "dateOfBirth": "1995-09-09"
+}
